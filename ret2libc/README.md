@@ -64,7 +64,7 @@ flag{1ts_A_RAND0m_w0rlD}
 ```
 
 Resources:
-Class slides
-Demo solve script
-Louie
-Alex
+* Class slides
+* Demo solve script
+* Louie
+* Alex
