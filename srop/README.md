@@ -11,3 +11,10 @@ pwn checksec chal.bin
     PIE:      No PIE (0x400000)
 ```
 
+and is dynamically linked to GLIBC.
+```
+ldd chal.bin
+    linux-vdso.so.1 (0x00007ffc653d1000)
+    libc.so.6 => /lib64/libc.so.6 (0x00007f432a200000)
+    /lib64/ld-linux-x86-64.so.2 (0x00007f432a463000)
+```
