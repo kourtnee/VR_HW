@@ -10,5 +10,5 @@ The binary is compiled with NX and Partial RELRO
     Stack:    No canary found                                                  
     NX:       NX enabled                                                       
     PIE:      No PIE (0x400000) 
-    ```
+```
     
