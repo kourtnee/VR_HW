@@ -16,7 +16,7 @@ got_val = libc.sym['rand'] # sym can find the value by name in the got, automati
 libc_base  = plt_val - got_val
 
 
-print("the base adress of libc is "+hex(libc_base)) # check that address has 000 at end to make sure address is correct
+print("The base address of libc is " + hex(libc_base)) # check that address has 000 at end to make sure address is correct
 
 
 chain = cyclic(16)
