@@ -112,7 +112,7 @@ ROPgadget --binary chal.bin | grep mov | grep rcx
 Then it jumps back to RDX like every other gadget has so far. Last we needed to be able to add 8 to RSP to advance the program counter.
 There was only one gadget that moved anything into RDX.
 ```
-0x00000000004011b6 : mov rdx, 0x40119d ; jmp rdx
+0x00000000004011b5 : pop rsp ; mov rdx, 0x40119d ; jmp rdx
 ```
 
 Looking at 0x40119d we see:
@@ -126,3 +126,16 @@ Looking at 0x40119d we see:
 
 Creating the fake stack is next, which we can do using the stack leak and a little bit of GDB analysis. 
 
+Then put all the pieces together in a chain (in the included solve script with it's own comments).
+
+Send the chain at the end of the script and get the flag!
+```
+flag{G3t_uS3d_2_1_Styl3_and_yo_and_I_m1ghT_sw1tch}
+```
+
+Resources: 
+* Class slides
+* Demo solve script
+* Chandler
+* Robbie
+* Louie
