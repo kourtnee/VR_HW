@@ -14,7 +14,7 @@ Repo for Vulnerability Research Homework
 ## PS 0x2: Advanced ROP 
 | Challenge	    |
 |---------------|
-| jop |
+| [jop](https://github.com/kourtnee/VR_HW/tree/main/jop)|
 | brop1 |
 | brop2 |
 | aarch64 |
