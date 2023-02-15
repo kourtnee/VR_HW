@@ -15,7 +15,7 @@ Repo for Vulnerability Research Homework
 | Challenge	    |
 |---------------|
 | [jop](https://github.com/kourtnee/VR_HW/tree/main/jop)|
-| brop1 |
+| [brop1](https://github.com/kourtnee/VR_HW/tree/main/brop1)|
 | brop2 |
 | [aarch64](https://github.com/kourtnee/VR_HW/tree/main/aarch64)|
 
