@@ -19,6 +19,32 @@ checksec chal.bin
 
 This is the output from connecting the the remote server
 ```
+OWMMMMMMMMMMMMKkKMMMMMMMMMMMMMMMW00WMXkKWMMMMMM0kNMMMMMMMMMMMMMNk0WMMMMMKOXMMMMM
+,OWMMMMMMMMMWW0;cXMMMMMMMMMMMMMWO;oWW0::xKMMMMWx,dNMMMMMMMMMMWNKc;0MMMMM0;lNMMMM
+ ,OWMMMMMMMXk00,.cXMMMMMMMMMMMWO,.dKkx;..:KMMMMx..dNMMMMMMMMW0oxc.:KMMMM0,.oNMMM
+  ;0WMMMMMNo,k0, .lXMMMMMMMMMM0;.:kc;d;  .cKMMMx. .xWMMMMMMM0;'dc .:KMMM0, .oNMM
+   ;0WMMMNo.'O0,  .lNMMMMMMMM0;.;kl.;x;   .cXMMx.  .xWMMMMMK:.'dc  .cXMM0,  .dNM
+ ...:KMMNd..xN0, ',;kWMMMMMMK:.;kl.'kK;  .'.cXWx..'..xWMMMK:. 'dc .'.cXM0,....xW
+ ;d,.:KNx..oKXk'.:OOKWMMMMMK:.,ko..oXK;  ;o'.lXx..lc.'kWMK:.  'dc ;o,.lXO,.ol..x
+ ;Kx..cx' .,l:.. ...:0MMMMK:.,kx. ..ck;  ... .lo. ..  'kKc... 'dc ... .ox,.xK:..
+ ;0d..dO; .:kkc. ,odxKWMMKc.'OWO, .:kO;  'loooxl..;ooood:..'. 'dc .. 'cxx,.x0;.;
+ ,l..dNW0;.;0W0, lNMMMMMXc..l0K0x'.cKK; .cNMMMWx..kMMMXc.'xXl.'dc ,:..dNO,.c:.;0
+ ...dNMMWO,.:K0, lNMMMMNl......'lo'.cO:..cNMMMMk..kMMXl.'xWWd.'xc.:0d..xk,...;0W
+  .oNMMMMWO,.k0, lNMMMMN0OOOOOOO0Xk''k0kkKWMMMMXOOXMMN0kKWMMXO0XKk0WN0OKO,  ;0WM
+ .oNMMMMMMWk:k0, lNMMMMMMMMMMMMMMMWx:OMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM0' ;0WMM
+.oNMMMMMMMMWKXNo.lNMMMMMMMMMMMMMMMMNKXMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM0,,0WMMM
+oNMMMMMMMMMMMMMNodNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM0oOWMMMM
+XMMMMMMMMMMMMMMMK0NMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNXWMMMMM
+-------------------------------------------------------------------------/bin/sh
+                              It's a state of emergency
+                   Don't you know that you're in a state of emergency?
+                            Armageddon it, armageddon it
+                            Armageddon It - Def Leppard
+--------------------------------------------------------------------------------
+                          Wed Feb 15 05:31:47 UTC 2023
+--------------------------------------------------------------------------------
+
+PwnMe >>> 
 ```
 
 
