@@ -1,6 +1,6 @@
 # BROP1:Solution
 
-This is the output from connecting the the remote server
+This is the output from connecting the the remote server, since there's no binary to analyze:
 ```
 --------------------------------------------------------------------------------
 MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMWNXK0OOOOOO0KXNWMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
@@ -36,3 +36,9 @@ MMMMMMMMMMMMMMMMMMMMMMMMMMMMMWWX0kxdollllllodxk0XWMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
 ```
 
 Since one of the addresses given is the puts() function, it seems like this should be a ret2puts/ret2libc exploit. 
+
+Resources:
+* Class slides 
+* Louie
+* Chandler
+* 
