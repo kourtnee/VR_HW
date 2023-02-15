@@ -17,7 +17,7 @@ Repo for Vulnerability Research Homework
 | [jop](https://github.com/kourtnee/VR_HW/tree/main/jop)|
 | brop1 |
 | brop2 |
-| aarch64 |
+| [aarch64](https://github.com/kourtnee/VR_HW/tree/main/aarch64)|
 
 <br>
 
@@ -26,3 +26,4 @@ Repo for Vulnerability Research Homework
 |---------------|
 | int |
 | oob |
+| type |
