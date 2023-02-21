@@ -11,3 +11,6 @@ checksec chal.bin
     PIE:      PIE enabled
 ```
 
+explain math of 2^32 and 
+recv random num from server 
+2 times 2^32 - random num second number is 2 
