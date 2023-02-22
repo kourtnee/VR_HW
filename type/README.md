@@ -1,5 +1,13 @@
-
-
+The binary is compiled with NX, a stack canary, and Full RELRO
+```
+checksec ./chal.bin
+[*] '/root/workspace/vuln/type/chal/chal.bin'
+    Arch:     amd64-64-little
+    RELRO:    Full RELRO
+    Stack:    Canary found
+    NX:       NX enabled
+    PIE:      No PIE (0x400000)
+```
 Because there was no win function but there was a fail function, and there is a system call. binsh not in binary so we have to write it 
 Write to heap because it's a heap challenge. There is a canary and no clear way to leak the canary.
 
@@ -12,6 +20,7 @@ test
 display instrument
 name instrument
 AAAAAAAAAAAAAAAA
+to overflow
 
 GDB shows 31337 is now something else
 
@@ -25,38 +34,11 @@ borrow drum to make space 32 fill with overwrite the one next to 31337 to system
 
 write binsh to memory
 
+```
+flag{D4z3d_and_confus3D_4_s0_l0Ng}
+```
 
-
-binary
-elf
-
-p = process(binary)
-
-p.recvuntil(b'>>> ')
-
-p.sendline 1
-p.recvuntil >>>
-
-sendline 3
-recvuntil >>>
-
-sendline 0
-recvuntil >>>
-
-write binsh 
-chain = b''
-chain += b'/bin/sh\0'
-chain += b'A' * 8 
-
-chain += p64(0x31337) # make it a guitar
-chain += elf.sym system 
-
-recvl
-
-chain +=  4 #display 
-
-recvl
-chain +=
-
-send chain 
-interactive 
+Resources:
+* Class Slides
+* Louie
+* Ash
