@@ -11,3 +11,4 @@ checksec chal.bin
     PIE:      No PIE (0x400000)
 ```
 
+This binary has a read function and a few gets calls that could be exploitable. I ran out of time for further analysis.
