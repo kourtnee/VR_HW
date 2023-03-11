@@ -124,3 +124,4 @@ Resources:
 * the [ret2libc]() challenge
 * BIG thanks to Louie for sending me the output of ldd so that I could calculate the distance between the libararies (all ldd output in this report comes from his laptop via discord)
 * Tyler sent me the slides from his my-first-pwn presentation which helped with figuring out how to calculate the base addresses
+* https://github.com/cs50/libcs50
