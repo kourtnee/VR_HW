@@ -61,7 +61,7 @@ Not the answer, so I went back to analyzing the code for clues. I renamed some v
 
 The popped value gets printed to the screen and then if the popped value and the user input are equal, it checks to see if the user input is zero. If it's not then the program breaks and the win function is called. 
 
-In order to win we need to know what the input is going to be. I'm sure there are many programatic ways to accomplish this, but since I'd already noticed a pattern earlier I tested the theory out. 
+In order to win we need to know what the popped value is going to be. I'm sure there are many programatic ways to accomplish this, but since I'd already noticed a pattern earlier I tested the theory out. 
 
 I ran the program locally, input '0' 23 times, and then I entered -14. Boom! I got the win function. So I just needed to repeat that on the remote server. 
 
